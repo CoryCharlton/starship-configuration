@@ -24,9 +24,9 @@ $cmd_duration\
 \n$character\
 """
 
-palette = "ccswe_dark"
+palette = "ccswe_default"
 
-[palettes.ccswe_dark]
+[palettes.ccswe_default]
 color_bg1 = "#336699"
 color_bg2 = "#2f5783"
 color_bg3 = "#294262"
@@ -78,7 +78,7 @@ style = "bold bg:color_bg1 fg:color_white"
 
 [os]
 format = "[$symbol]($style)"
-style = "bold bg:color_bg1 fg:color_white"
+style = "bg:color_bg1 fg:color_white"
 disabled = false
 
 [username]
