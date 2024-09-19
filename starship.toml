@@ -157,5 +157,5 @@ symbol = " "
 
 [nodejs]
 style = "bg:color_bg4 fg:#5FA04E"
-format = '[ $symbol ($version) ]($style)'
+format = '[$symbol($version)]($style)'
 symbol = " "
