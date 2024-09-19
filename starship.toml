@@ -24,9 +24,9 @@ $cmd_duration\
 \n$character\
 """
 
-palette = "ccswe_default"
+palette = "ccswe_dark"
 
-[palettes.ccswe_default]
+[palettes.ccswe_dark]
 color_bg1 = "#336699"
 color_bg2 = "#2f5783"
 color_bg3 = "#294262"
@@ -43,11 +43,11 @@ error_symbol = "[❯](bold color_red)"
 success_symbol = "[❯](bold color_blue)"
 
 [cmd_duration]
-format = "[$duration](bold bg:color_bg5 fg:color_gray)"
+format = "[$duration](bg:color_bg5 fg:color_gray)"
 min_time = 500
 
 [directory]
-style = "bold bg:color_bg2 fg:color_white"
+style = "bg:color_bg2 fg:color_white"
 format = "[$path]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -60,7 +60,7 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bold bg:color_bg3 fg:color_blue"
+style = "bg:color_bg3 fg:color_blue"
 format = "[$symbol $branch]($style)"
 
 [git_status]
@@ -74,7 +74,7 @@ format = '[( $all_status$ahead_behind)]($style)'
 format = "[@$hostname]($style)"
 ssh_only = true
 ssh_symbol = " "
-style = "bold bg:color_bg1 fg:color_white"
+style = "bg:color_bg1 fg:color_white"
 
 [os]
 format = "[$symbol]($style)"
@@ -85,32 +85,32 @@ disabled = false
 disabled = false
 format = "[$user]($style)"
 show_always = false
-style_root = "bold bg:color_bg1 fg:color_red"
-style_user = "bold bg:color_bg1 fg:color_white"
+style_root = "bg:color_bg1 fg:color_red"
+style_user = "bg:color_bg1 fg:color_white"
 
 # Code symbols
 [c]
 format = '[$symbol]($style)'
-style = "bold bg:color_bg4 fg:#6295CB"
+style = "bg:color_bg4 fg:#6295CB"
 symbol = " "
 
 [dotnet]
 format = '[$symbol]($style)'
-style = "bold bg:color_bg4 fg:#1180C3"
+style = "bg:color_bg4 fg:#1180C3"
 symbol = " "
 
 [java]
 format = '[$symbol]($style)'
-style = "bold bg:color_bg4 fg:#F7901E"
+style = "bg:color_bg4 fg:#F7901E"
 symbol = " "
 
 [kotlin]
 format = '[$symbol]($style)'
-style = "bold bg:color_bg4 fg:#C017E4"
+style = "bg:color_bg4 fg:#C017E4"
 symbol = " "
 
 [nodejs]
-style = "bold bg:color_bg4 fg:#5FA04E"
+style = "bg:color_bg4 fg:#5FA04E"
 format = '[$symbol($version)]($style)'
 symbol = " "
 
