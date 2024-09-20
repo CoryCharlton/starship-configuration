@@ -36,7 +36,7 @@ color_bg5 = "#1d2230"
 color_blue = "#769ff0"
 color_gray = "#999999"
 color_red = "#eb4d28"
-color_white = "#e4e4e4"
+color_white = "#f2f2f2"
 
 [character]
 error_symbol = "[❯](bold color_red)"
